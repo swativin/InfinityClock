@@ -1,0 +1,67 @@
+.outer-circle{
+    background-color: rgb(245, 202, 234);
+    border-radius: 50%;
+    width:400px;
+    height: 400px;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    position: absolute;
+    margin:auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.inner-circle{
+    background-color: rgb(101, 7, 104);
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    text-align: center;
+    margin:auto;
+}
+.long-hand{
+    background-color: rgb(101, 7, 104);
+    height: 170px;
+    width: 8px;
+    border-radius: 4px;
+    position: absolute;
+    top:35px;
+    left:200px;  
+    transform-origin: bottom left;
+    animation: minuteNeedle 15s infinite;
+    animation-timing-function: linear;
+}
+@keyframes minuteNeedle{
+    from{transform:rotate(0deg)}
+    to{
+        transform:rotate(360deg);
+    }
+} 
+@keyframes hourHand {
+    from{transform:rotate(0deg)}
+    to{
+        transform:rotate(360deg);
+    }
+}
+    
+
+.short-hand{
+    background-color: rgb(101, 7, 104);
+    height: 150px;
+    width: 8px;
+    border-radius: 4px;
+    position: absolute;
+    top:50px;
+    left:200px;  
+    transform-origin: bottom left;
+    animation: hourHand 60s infinite;
+    animation-timing-function: linear;
+}
+body{
+background-color: rgb(253, 231, 229);
+}
