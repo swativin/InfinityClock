@@ -1,5 +1,5 @@
 .outer-circle{
-    background-color: rgb(245, 202, 234);
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
     width:400px;
     height: 400px;
@@ -10,9 +10,10 @@
     position: absolute;
     margin:auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: 3px solid goldenrod;
 }
 .inner-circle{
-    background-color: rgb(101, 7, 104);
+    background-color:goldenrod;
     border-radius: 50%;
     width: 20%;
     height: 20%;
@@ -23,9 +24,10 @@
     bottom: 0;
     text-align: center;
     margin:auto;
+    border: 3px solid rgb(228, 214, 25);
 }
 .long-hand{
-    background-color: rgb(101, 7, 104);
+    background-color: goldenrod;
     height: 170px;
     width: 8px;
     border-radius: 4px;
@@ -51,7 +53,7 @@
     
 
 .short-hand{
-    background-color: rgb(101, 7, 104);
+    background-color: goldenrod;
     height: 150px;
     width: 8px;
     border-radius: 4px;
@@ -63,5 +65,69 @@
     animation-timing-function: linear;
 }
 body{
-background-color: rgb(253, 231, 229);
+background-color: rgb(0, 0, 0);
+}
+.digit{
+    font-size: 32px;
+    color: rgb(110, 109, 106);
+}
+.twelve{
+    position:absolute;
+    left:170px;
+}
+.three{
+    position:absolute;
+    left:380px;
+    top:200px;
+}
+.six{
+    position: absolute;
+    left:200px;
+    top:370px;
+}
+.nine{
+    position: absolute;
+    left:0;
+    top:200px;
+}
+.one{
+    position: absolute;
+    left:290px;
+    top:20px;
+    
+}
+.two{
+    position: absolute;
+    left:365px;
+    top:100px;
+}
+.four{
+    position: absolute;
+    left:350px;
+    top:280px;
+}
+.five{
+    position: absolute;
+    left:290px;
+    top:340px;
+}
+.seven{
+    position: absolute;
+    left:100px;
+    top:340px;
+}
+.eight{
+    position: absolute;
+    left:35px;
+    top:285px;
+}
+.ten{
+    position: absolute;
+    left:15px;
+    top:110px;
+}
+.eleven{
+    position: absolute;
+    left:83px;
+    top:25px;
 }
